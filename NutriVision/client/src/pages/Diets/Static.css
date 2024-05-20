@@ -1,0 +1,189 @@
+/* Static.css */
+
+/* Overall layout */
+.all-diets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 2rem;
+    background-color: whitesmoke; /* Background color */
+    min-height: 100vh; /* Ensures the container takes at least the height of the viewport */
+}
+
+/* Plans section */
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    gap: 2rem;
+}
+
+/* Individual plan styles */
+.medi,
+.dash,
+.plant,
+.weight-loss,
+.weight-gain,
+.balanced-diet {
+    width: 80%;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow */
+}
+
+.medi h1,
+.dash h1,
+.plant h1,
+.weight-loss h1,
+.weight-gain h1,
+.balanced-diet h1{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.medi p,
+.dash p,
+.plant p,
+.weight-loss p ,
+.weight-gain p ,
+.balanced-diet p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.medi h3,   
+.dash h3,
+.plant h3,
+.weight-loss h3,
+.weight-gain h3,
+.balanced-diet h3{
+    color: #333;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* List styles */
+.ls {
+    list-style-type: none;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.ls li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.ls li:before {
+    content: "\2022"; 
+    color: red; 
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Health benefits section */
+.health {
+    margin-top: 20px;
+}
+
+.health h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.health p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Summary section */
+.summary {
+    margin-top: 20px;
+}
+
+.summary h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.options{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    gap: 2rem;
+}
+.left-pane{
+    width: auto;
+    flex: 1;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow */
+}
+.right-pane{
+    width: auto;
+    flex: 1;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow */
+}
+/* Static.css */
+
+/* Button styles */
+.left-pane a,
+.right-pane a    {
+    cursor: pointer;
+    padding: .9rem;
+    margin: 0 5px;
+    border: 1px solid ;
+    border-radius: 20px;
+    background-color: rgb(211, 209, 209); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease;
+}
+
+.upward-arrow {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 999; 
+}
+
+.upward-arrow a {
+    color: #333;
+    font-size: 30px;
+}
+
+.upward-arrow a:hover {
+    color: #666;
+}
+
+
+.about-content1{
+
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow */
+}

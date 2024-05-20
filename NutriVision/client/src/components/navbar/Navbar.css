@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+  background-color: #333;
+}
+
+.NavButtons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavButtons .home {
+  margin-right: auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.NavButtons .home:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.NavButtons .right-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.NavButtons .right-buttons button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.NavButtons .right-buttons button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.NavButtons .right-buttons button:active {
+  background-color: #555;
+  color: white;
+}
+
+.nutritionAnalyser {
+  background-color: rgba(255, 98, 0, 0.886);
+  border: none;
+}
+
+.nutritionAnalyser:hover {
+  background-color: rgba(255, 80, 0, 0.886);
+  color: white;
+}
+
+.logout {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.logout:hover {
+  background-color: #555;
+  color: white;
+}

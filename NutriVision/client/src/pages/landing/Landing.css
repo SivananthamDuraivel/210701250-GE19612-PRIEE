@@ -1,0 +1,38 @@
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -10rem;
+}
+
+.button-cont {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.button-cont a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 150px;
+  height: 100px;
+  padding: 10px 20px;
+  background-color: rgba(255, 98, 0, 0.886);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #eb3908;
+}

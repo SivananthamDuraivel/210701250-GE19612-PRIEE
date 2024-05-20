@@ -1,0 +1,65 @@
+.nutrition_analysis {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 20px;
+ }
+ 
+ .title {
+   color: black;
+   margin-bottom: 20px;
+ }
+ 
+ .food-input {
+   padding: 10px;
+   font-size: 16px;
+   margin-right: 10px;
+ }
+ 
+ .get-nutrition {
+   padding: 10px 20px;
+   font-size: 16px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ .nutrition-info {
+   margin-top: 20px;
+   width: 80%;
+ }
+ 
+ .nutrition-item {
+   margin-bottom: 40px; /* Add some spacing between the tables */
+ }
+ 
+ .nutrition-table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+ }
+ 
+ .nutrition-table th,
+ .nutrition-table td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+ }
+ 
+ .nutrition-table th {
+   background-color: #f2f2f2;
+ }
+ 
+ .nutrition-table tr:nth-child(even) {
+   background-color: #f9f9f9;
+ }
+ 
+ .nutrition-table tr:hover {
+   background-color: #ddd;
+ }
+ 
+ .image {
+   margin-top: 20px;
+ }
+ 

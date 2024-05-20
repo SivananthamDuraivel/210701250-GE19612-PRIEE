@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-container{
+    background-color: #e3e2e26f;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .n, .logo .v {
+  display: flex;
+  align-items: center;
+}
+
+.logo .utri, .logo .ision {
+  margin: 0 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.urls {
+  display: flex;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  
+  color: rgba(255, 98, 0, 0.886); ;
+}
+
+.outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.left, .right {
+  flex: 1;
+  min-width: 300px;
+  padding: 10px;
+}
+
+.responsive-img {
+  margin-left: 7rem;
+  width: 82%;
+  height: auto;
+}
+
+.content-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nv, .start-button {
+  margin-left: 0;
+}
+
+.start-button {
+  min-width: 180px;
+  min-height: 40px;
+  background-color: rgba(255, 98, 0, 0.886);
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  border: none;
+}
+
+.start-button:hover {
+  background-color: rgba(255, 80, 0, 0.886);
+}
+
+.about-container {
+  padding: 20px;
+}
+
+.about {
+height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch; /* Make the height of left and right containers equal */
+  margin-bottom: 20px;
+}
+
+.about-right, .about-left {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box effect */
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-right {
+  margin-right: 10px; /* Separate the right box from the left */
+}
+
+.about-left {
+  margin-left: 10px; /* Separate the left box from the right */
+}
+
+.about-content1, .about-content2, .about-content3, .about-content4 {
+  font-size: 18px;
+}
+
+.analysis-access {
+  margin-left: 0;
+}
+
+.acess-1 {
+  margin-left: 0;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.title-about {
+  margin-bottom: 20px;
+}
+
+.utri p,.ision p{
+    margin-top: 1.7rem;
+}
+.utri p{
+    margin-left: -.7rem;
+}
+.v{
+    margin-top: 1rem;
+    margin-left: -1.4rem;
+}
+.ision p{
+    margin-left: -1.3rem;
+}

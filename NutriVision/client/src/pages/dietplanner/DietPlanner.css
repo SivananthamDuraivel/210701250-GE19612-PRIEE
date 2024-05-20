@@ -1,0 +1,101 @@
+.dp {
+  color: black;
+  padding: 20px;
+}
+
+.dp h1 {
+  text-align: center;
+}
+
+.table-container {
+  margin-bottom: 3rem; /* Add spacing between tables */
+}
+
+.dp table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dp th, .dp td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.dp th {
+  background-color: #57af57;
+  color: white;
+}
+
+.dp tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.dp tbody tr:hover {
+  background-color: #ddd;
+}
+
+.add-plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.add-plan button  {
+  padding: 10px 20px;
+  background-color: rgb(58, 225, 58);
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: glow-blue 1s ease-in-out infinite alternate;
+  margin-left: 1rem;
+}
+.right1  {
+  padding: 10px 20px;
+  background-color: rgb(44, 44, 223);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: glow-blue 1s ease-in-out infinite alternate;
+  margin-left: 1rem;
+}
+.right2{
+  padding: 10px 20px;
+  background-color:red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: glow-blue 1s ease-in-out infinite alternate;
+  margin-left: 1rem;
+}
+
+.create-delete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.right-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.right-buttons button {
+  margin-left: 1rem;
+}
+
+.command {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.background {
+  width: 100%;
+  min-height: 100vh; /* Ensure background covers the entire screen */
+  background-image: linear-gradient(#fbfbfb, #ffffff);
+}
